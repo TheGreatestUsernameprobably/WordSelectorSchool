@@ -1,4 +1,4 @@
-#from ui import UI
+from ui import UI
 from word import Word
 from word_list import WordList
 import copy
@@ -81,9 +81,9 @@ def take_guess(correct_word: Word) -> int:
 def main() -> None:
     start()
     print(words_list.word_list)
-    play()
+    #play()
 
 
 if __name__ == '__main__':
     main()
-    #UI.run()
+    UI.run()
