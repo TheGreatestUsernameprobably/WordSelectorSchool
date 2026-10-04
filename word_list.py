@@ -21,6 +21,7 @@ class WordList:
         return new_words_list
 
 
+
     def __str__(self):
         return str(self.word_list)
 
